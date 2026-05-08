@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Aarav Mehta | Family Clinic</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Dr. Aarav Mehta Clinic home">
+        <span class="brand-mark">+</span>
+        <span>
+          <strong>Mehta Clinic</strong>
+          <small>MBBS Family Care</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Trusted family healthcare in your neighborhood</p>
+        <h1>Dr. Aarav Mehta</h1>
+        <p class="hero-tagline">MBBS physician providing compassionate, evidence-based care for everyday health needs.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#appointment">Book Appointment</a>
+          <a class="btn secondary" href="tel:+919876543210">Call Clinic</a>
+        </div>
+        <div class="hero-trust" aria-label="Clinic highlights">
+          <span><strong>12+</strong> Years</span>
+          <span><strong>25k+</strong> Patients</span>
+          <span><strong>4.9</strong> Rating</span>
+        </div>
+      </div>
+      <div class="hero-panel reveal">
+        <div class="doctor-card">
+          <img src="assets/doctor-portrait.png" alt="Portrait of Dr. Aarav Mehta">
+          <div class="availability-card">
+            <span class="pulse"></span>
+            <div>
+              <strong>Available Today</strong>
+              <small>10:00 AM - 7:00 PM</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-strip" aria-label="Clinic statistics">
+      <div class="stat reveal">
+        <span class="counter" data-target="12">0</span>
+        <p>Years of practice</p>
+      </div>
+      <div class="stat reveal">
+        <span class="counter" data-target="25000">0</span>
+        <p>Patients cared for</p>
+      </div>
+      <div class="stat reveal">
+        <span class="counter" data-target="98">0</span>
+        <p>Patient satisfaction</p>
+      </div>
+      <div class="stat reveal">
+        <span class="counter" data-target="6">0</span>
+        <p>Days open weekly</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Doctor</p>
+        <h2>Experienced primary care with a calm, clear approach.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="assets/doctor-portrait.png" alt="Dr. Aarav Mehta in clinic">
+        </div>
+        <div class="about-copy reveal">
+          <h3>Dr. Aarav Mehta, MBBS</h3>
+          <p>Dr. Mehta focuses on practical diagnosis, preventive care, and long-term patient relationships. His clinic supports children, adults, and seniors with attentive consultations and clear treatment guidance.</p>
+          <div class="credential-list">
+            <div>
+              <span class="icon">✓</span>
+              <p><strong>Qualification</strong> MBBS, General Physician</p>
+            </div>
+            <div>
+              <span class="icon">✓</span>
+              <p><strong>Experience</strong> 12+ years in family medicine</p>
+            </div>
+            <div>
+              <span class="icon">✓</span>
+              <p><strong>Focus</strong> Preventive care, chronic health, acute illness</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Services</p>
+        <h2>Complete everyday medical care.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <span class="service-icon">🩺</span>
+          <h3>General Consultation</h3>
+          <p>Diagnosis and treatment for fever, infections, pain, fatigue, and common health concerns.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon">💙</span>
+          <h3>Chronic Care</h3>
+          <p>Ongoing support for diabetes, blood pressure, thyroid disorders, and lifestyle conditions.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon">🌿</span>
+          <h3>Preventive Checkups</h3>
+          <p>Routine screening, wellness guidance, vaccination advice, and family health planning.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon">👨‍👩‍👧</span>
+          <h3>Family Medicine</h3>
+          <p>Accessible care for children, adults, and elderly patients in one trusted clinic setting.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section appointment" id="appointment">
+      <div class="appointment-copy reveal">
+        <p class="eyebrow">Appointment Booking</p>
+        <h2>Plan your visit in under a minute.</h2>
+        <p>Choose your preferred date and time. The clinic team will confirm your appointment by phone or WhatsApp.</p>
+        <a class="whatsapp-link" href="https://wa.me/919876543210" target="_blank" rel="noreferrer">WhatsApp Clinic</a>
+      </div>
+      <form class="appointment-form reveal" id="appointmentForm" novalidate>
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <small class="error-message"></small>
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number" required>
+          <small class="error-message"></small>
+        </div>
+        <div class="form-row split">
+          <div>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+            <small class="error-message"></small>
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <select id="time" name="time" required>
+              <option value="">Select</option>
+              <option>10:00 AM</option>
+              <option>12:30 PM</option>
+              <option>04:00 PM</option>
+              <option>06:30 PM</option>
+            </select>
+            <small class="error-message"></small>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="reason">Reason for visit</label>
+          <textarea id="reason" name="reason" rows="4" placeholder="Briefly describe your concern" required></textarea>
+          <small class="error-message"></small>
+        </div>
+        <button class="btn primary full" type="submit">Confirm Appointment</button>
+        <p class="form-success" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Patient Reviews</p>
+        <h2>Care that patients feel confident returning to.</h2>
+      </div>
+      <div class="testimonial-shell reveal">
+        <button class="slider-btn" type="button" data-direction="prev" aria-label="Previous testimonial">‹</button>
+        <div class="testimonial-track" id="testimonialTrack">
+          <article class="testimonial-card active">
+            <p>“Dr. Mehta explains everything patiently and never rushes the consultation. The clinic is clean, organized, and easy to visit.”</p>
+            <strong>Priya S.</strong>
+          </article>
+          <article class="testimonial-card">
+            <p>“I visited for high fever and received clear treatment advice. Follow-up was simple through WhatsApp, which helped a lot.”</p>
+            <strong>Rohan K.</strong>
+          </article>
+          <article class="testimonial-card">
+            <p>“Our family has been consulting him for years. Very trustworthy doctor with a practical and kind approach.”</p>
+            <strong>Meena R.</strong>
+          </article>
+        </div>
+        <button class="slider-btn" type="button" data-direction="next" aria-label="Next testimonial">›</button>
+      </div>
+      <div class="slider-dots" aria-label="Testimonial controls"></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Visit Mehta Clinic</h2>
+        <div class="contact-list">
+          <p><strong>Address</strong> 24 Wellness Avenue, Andheri West, Mumbai, Maharashtra</p>
+          <p><strong>Phone</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+          <p><strong>Hours</strong> Mon-Sat, 10:00 AM - 7:00 PM</p>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe title="Clinic location map" src="https://www.google.com/maps?q=Andheri%20West%20Mumbai&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-book" href="#appointment">Book Appointment</a>
+  <a class="floating-whatsapp" href="https://wa.me/919876543210" target="_blank" rel="noreferrer" aria-label="Contact on WhatsApp">☎</a>
+
+  <footer class="footer">
+    <p>© 2026 Mehta Clinic. Professional medical care by appointment.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
